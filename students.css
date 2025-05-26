@@ -1,0 +1,144 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home{
+    background-color: #86bdf4;
+    font-size: larger;
+    font-style:unset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #51687e;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f39c12;
+}
+
+/* Card Section */
+.card-container {
+  display:flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding: 20px;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.about {
+  background-color: #d5dfe1;
+  padding: 40px 20px;
+  text-align: center;
+}
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #999fa5;
+}
+.about p {
+  font-size: 18px;
+  color: #444;
+  max-width: 1000px;
+  margin: 0 auto 15px;
+  line-height: 1.6;
+}
+
+.contact{
+    background-color: rgb(88, 121, 121);
+    text-align: center;
+
+}
+.contact h2{
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.contact p {
+  font-size: 18px;
+  color: #070101;
+  margin-bottom: 30px;
+  padding: 2px;
+}
+
+.Contact-Form input,
+.Contact-Form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  font-size: 16px;
+  width: 100%;
+}
+.Contact-Form button:hover {
+  background-color: #34495e;
+ 
+}
+.Contact-Form button{
+     border-radius: 20px;
+     padding: 12px;
+     background-color: #2c3e50;
+     color: white;
+     border: none;
+     font-weight: bold;
+     cursor: pointer;
+}
+
